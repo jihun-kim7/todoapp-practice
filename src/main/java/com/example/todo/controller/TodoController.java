@@ -11,4 +11,9 @@ public class TodoController {
     public String getIndex() {
         return "To-do Apllication!";
     }
+
+    @GetMapping("/1")
+    public String getIndex1() {
+        return "To-do Application 1!";
+    }
 }
