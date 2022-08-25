@@ -68,4 +68,9 @@ public class TodoController {
         return "meat55";
     }
 
+    @GetMapping("/main/666")
+    public String main666() {
+        return "meat666";
+    }
+
 }
