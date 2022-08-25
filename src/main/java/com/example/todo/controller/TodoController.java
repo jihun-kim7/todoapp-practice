@@ -39,7 +39,11 @@ public class TodoController {
     @GetMapping("/main/1")
     public String main1() {
         return "meat1";
+    }
 
+    @GetMapping("/main/11")
+    public String main11() {
+        return "meat11";
     }
 
 
