@@ -1,10 +1,12 @@
 package com.example.todo.controller;
 
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequiredArgsConstructor
 public class TodoController {
 
     @GetMapping("/")
@@ -16,4 +18,11 @@ public class TodoController {
     public String getIndex1() {
         return "To-do Application 1!";
     }
+
+    @GetMapping("/feat/1")
+    public String Feat1() {
+        return "feat1";
+    }
+
+
 }
