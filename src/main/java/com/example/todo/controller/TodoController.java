@@ -29,5 +29,10 @@ public class TodoController {
         return "feat2";
     }
 
+    @GetMapping("/feat/2-1")
+    public String feat21() {
+        return "feat2-1";
+    }
+
 
 }
