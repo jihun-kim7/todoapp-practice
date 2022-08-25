@@ -28,6 +28,7 @@ public class TodoController {
     @GetMapping("/feat/2")
     public String feat2() {
         return "feat2";
+
     }
 
     @GetMapping("/feat/2-1")
@@ -38,6 +39,7 @@ public class TodoController {
     @GetMapping("/main/1")
     public String main1() {
         return "meat1";
+
     }
 
 
