@@ -24,9 +24,15 @@ public class TodoController {
         return "feat1";
     }
 
+
     @GetMapping("/feat/2")
     public String feat2() {
         return "feat2";
+        
+    @GetMapping("/main/1")
+    public String main1() {
+        return "meat1";
+
     }
 
 
