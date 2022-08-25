@@ -20,8 +20,13 @@ public class TodoController {
     }
 
     @GetMapping("/feat/1")
-    public String Feat1() {
+    public String feat1() {
         return "feat1";
+    }
+
+    @GetMapping("/feat/2")
+    public String feat2() {
+        return "feat2";
     }
 
 
