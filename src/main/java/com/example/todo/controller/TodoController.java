@@ -73,4 +73,9 @@ public class TodoController {
         return "meat66";
     }
 
+    @GetMapping("/main/77")
+    public String main77() {
+        return "meat77";
+    }
+
 }
