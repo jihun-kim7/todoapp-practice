@@ -9,9 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class TodoController {
 
-    @GetMapping("/1")
-    public String f1() {
-        return "f1";
-    }
+    
 
 }
