@@ -52,4 +52,9 @@ public class TodoController {
         return "meat22";
     }
 
+    @GetMapping("/main/33")
+    public String main33() {
+        return "meat33";
+    }
+
 }
