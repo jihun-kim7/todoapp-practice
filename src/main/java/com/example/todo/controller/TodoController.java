@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class TodoController {
 
-    
+    @GetMapping("/main")
+    public String main() {
+        return "main";
+    }
 
 }
