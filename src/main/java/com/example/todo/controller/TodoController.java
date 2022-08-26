@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TodoController {
 
     public static void main(String[] args) {
-
+        System.out.println("a1");
     }
 
 }
